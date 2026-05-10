@@ -19,3 +19,13 @@ celsius = float(input("Enter temperature in Celsius: "))
 
 # ── Bonus (optional) ─────────────────────────────────────────────────────────
 # Add a direction menu (C→F or F→C)
+
+# Project 1 - Temperature Converter
+# Author: Seid Mamuti
+# Get input from the user and convert it to float
+celsius = float(input("Enter temperature in Celsius: "))
+# Apply the formula: F = (C x 9/5) + 32
+fahrenheit = (celsius * 9 / 5) + 32
+# Print the result using an f-string
+print(f"{celsius:.1f}\u00b0C = {fahrenheit:.1f}\u00b0F")
+
